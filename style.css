@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Space Mono', monospace;
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8rem;
+}
+.scarecrow {
+    width: 50%;
+}
+.scarecrow img {
+    width: 90%;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 3rem;
+}
+.content-title {
+    color: #333333;
+    font-size: 3rem;
+    width: 80%;
+}
+.content-text {
+    color: #4F4F4F;
+    font-size: 1rem;
+    width: 50%;
+}
+.content-btn {
+    font-family: 'Space Mono', monospace;
+    background-color: #333333;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    padding: 1.2rem;
+    border: none;
+    cursor: pointer;
+}
+.content-btn:hover {
+    opacity: 0.7;
+}
