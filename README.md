@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://(https://github.com/siafromspace/404-not-found.git)">
       Solution
     </a>
     <span> | </span>
